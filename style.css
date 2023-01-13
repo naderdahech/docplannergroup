@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+* { margin: 0 auto }
+
+.logo {
+  height: 33px;
+  width: 268px;
+  padding-top: 1%;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0px;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  cursor: pointer;
+}
+.menu-item {
+  margin-right: 20px;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(171, 171, 171);
+}
+.drop-menu {
+  display: none;
+  list-style: none;
+  position: absolute;
+  margin-left: -40px;
+  color: rgb(171, 171, 171);
+}
+.menu-item:hover {
+  color: rgb(0, 179, 155);
+}
+.menu-item:hover .drop-menu {
+  display: flex;
+  flex-direction: column;
+}
+.drop-menu-item:hover {
+  color: rgb(0, 179, 155);
+}
+.logo2{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 40px;
+  width: 40px;
+  
+}
+#paragraph-container{
+  display: flex;
+  justify-content: space-between;
+}
+#paragraph-container p {
+  margin: 13px;
+ height: 140px;
+ width: 382px;
+ font-family: roboto;
+ color: #747474;
+ margin: 15px;
+ font-size: 16px;
+ line-height: 28px;
+}
+#section1 {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+}
+#section1 img {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 40px;
+  height: 40px;
+}
+#section1 h1 {
+  font-family: work sans;
+  font-size: 34px;
+  line-height: 44px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: rgb(0, 179, 155);
+
+}
+#section2 {
+  display: flex;
+  width:100%;
+  justify-content: center;
+  align-content: center;
+}
+
+#section2 div {
+  width: 311px;
+  height: 345px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  border-radius: 10px;
+  
+  
+}
+#greencard {
+  background-color: #00ccb1;
+
+}
+#bleucard {
+  background-color: #3d83df;
+
+}
+#blackcard {
+  background-color: #161f2a;
+
+}
+#section2 div {
